@@ -141,9 +141,9 @@ console.log('Exercise 10 result:', hasSoup);
 // */
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 odds = []
-for (num of nums) {
-    if (num%2 !== 0){
-        odds.push(num)
+for (number of nums) {
+    if (number%2 !== 0){
+        odds.push(number)
     }
 }
 console.log('Exercise 11 result:', odds);
@@ -171,15 +171,15 @@ fizz = [];
 buzz = [];
 fizzbuzz = [];
 
-for (num of nums) {
-    if(num%3 === 0) {
-        fizz.push(num)
+for (number of nums) {
+    if(number%3 === 0) {
+        fizz.push(number)
     } 
-    if(num%5 === 0) {
-        buzz.push(num)
+    if(number%5 === 0) {
+        buzz.push(number)
     }
-    if (num%3 === 0 && num%5 ===0) {
-        fizzbuzz.push(num)
+    if (number%3 === 0 && number%5 ===0) {
+        fizzbuzz.push(number)
     }
 }
 
@@ -221,9 +221,7 @@ console.log('Exercise 13 result:', numList);
 
 // Complete Exercise 14 in the space below:
 // */
-
-
-
+const num = numArrays[2][1]
 console.log('Exercise 14 result:', num);
 
 
