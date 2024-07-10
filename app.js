@@ -110,9 +110,7 @@ console.log('Exercise 8 result:', soyIdx);
 
 // Complete Exercise 9 in the space below:
 // */
-
-
-
+allFoods = foods.join(" -> ")
 console.log('Exercise 9 result:', allFoods);
 
 
@@ -126,9 +124,7 @@ console.log('Exercise 9 result:', allFoods);
 
 // Complete Exercise 10 in the space below:
 // */
-
-
-
+hasSoup = foods.includes("soup")
 console.log('Exercise 10 result:', hasSoup);
 
 
