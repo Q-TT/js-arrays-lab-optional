@@ -79,9 +79,7 @@ console.log('Exercise 6 result:', foods);
 
 // Complete Exercise 7 in the space below:
 // */
-
-
-
+yummy = foods.slice(1,3)
 console.log('Exercise 7 result:', yummy);
 
 
