@@ -239,8 +239,8 @@ console.log('Exercise 14 result:', num);
 // */
 let total = 0; 
 numArrays.forEach((littleArray) => {
-    for (let j = 0; j < littleArray.length; j++)
-        total += littleArray[j]
+    for (let i = 0; i < littleArray.length; i++)
+        total += littleArray[i]
 })
 
 console.log('Exercise 15 result:\n', total);
