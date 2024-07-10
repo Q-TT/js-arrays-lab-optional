@@ -43,9 +43,7 @@ console.log('Exercise 3 result:', foods);
 
 // Complete Exercise 4 in the space below:
 // */
-
-
-
+const favFood = foods[1]
 console.log('Exercise 4 result:', favFood);
 
 
