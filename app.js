@@ -167,8 +167,21 @@ console.log('Exercise 11 result:', odds);
 
 // Complete Exercise 12 in the space below:
 // */
+fizz = [];
+buzz = [];
+fizzbuzz = [];
 
-
+for (num of nums) {
+    if(num%3 === 0) {
+        fizz.push(num)
+    } 
+    if(num%5 === 0) {
+        buzz.push(num)
+    }
+    if (num%3 === 0 && num%5 ===0) {
+        fizzbuzz.push(num)
+    }
+}
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
