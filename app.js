@@ -237,10 +237,14 @@ console.log('Exercise 14 result:', num);
 
 // Complete Exercise 15 in the space below:
 // */
-
-
+let total = 0; 
+numArrays.forEach((littleArray) => {
+    for (let j = 0; j < littleArray.length; j++)
+        total += littleArray[j]
+})
 
 console.log('Exercise 15 result:\n', total);
+
 
 // BELOW IS CHALLENGES FROM KYLE
 /*
