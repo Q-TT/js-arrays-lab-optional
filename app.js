@@ -65,7 +65,7 @@ console.log('Exercise 5 result:', foods);
 
 // Complete Exercise 6 in the space below:
 // */
-foods.splice(1, 2, "sushi", "cupcake")
+foods.splice(1, 1, "sushi", "cupcake")
 console.log('Exercise 6 result:', foods);
 
 
@@ -93,9 +93,7 @@ console.log('Exercise 7 result:', yummy);
 
 // Complete Exercise 8 in the space below:
 // */
-
-
-
+const soyIdx = foods.indexOf("tofu")
 console.log('Exercise 8 result:', soyIdx);
 
 
