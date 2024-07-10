@@ -139,11 +139,13 @@ console.log('Exercise 10 result:', hasSoup);
 
 // Complete Exercise 11 in the space below:
 // */
-
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
-
-
-
+odds = []
+for (num of nums) {
+    if (num%2 !== 0){
+        odds.push(num)
+    }
+}
 console.log('Exercise 11 result:', odds);
 
 
